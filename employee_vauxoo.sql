@@ -26,4 +26,17 @@ CREATE TABLE employee_hobby (
   primary key (id)
 );
 
+INSERT INTO employee VALUES (1, 'andres', 'marrero', 1);
+INSERT INTO employee VALUES (2, 'jose', 'gomez', 3);
+INSERT INTO employee VALUES (3, 'daniela', 'ocanto', 2);
+INSERT INTO employee VALUES (4, 'jose', 'perez', 5);
+
+INSERT INTO employee VALUES (1, 'rrhh', 'recursos humanos');
+INSERT INTO employee VALUES (2, 'sistemas', 'computacion');
+INSERT INTO employee VALUES (3, 'ventas', 'ventas');
+INSERT INTO employee VALUES (4, 'nomina', 'nomina');
+INSERT INTO employee VALUES (5, 'contabilidad', 'contable');
+INSERT INTO employee VALUES (6, 'compras', 'compras');
+
+
 -- ...
