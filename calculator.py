@@ -1,16 +1,15 @@
 """
-Your module documentation here
+Modulo de prueba Vauxoo
 """
 
 
 class CalculatorClass(object):
     """
-    Your class documentation here
+    Clase que calcula la suma de los elementos de una lista de enteros. 
     """
 
     def sum(self, num_list):
         """
-        Your method documentation here
+        Se aplicó funcion numerica SUM definida de Python en vez de recorrer la lista y sumar cada elemento.
         """
-        # your sum code here
-        return "not implement yet"  # Remove this dummy line
+        return sum(num_list)
