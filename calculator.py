@@ -2,10 +2,9 @@
 Modulo de prueba Vauxoo
 """
 
-
 class CalculatorClass(object):
     """
-    Clase que calcula la suma de los elementos de una lista de enteros 
+    Clase que calcula la suma de los elementos de una lista de enteros
     """
     def sum(self, num_list):
         """
