@@ -9,13 +9,12 @@ class PrimeClass(object):
     '''
     def is_prime(self, num_int):
         """
-        Método is_prime que recibe un numero entero y devuelve True (si es numero primo) o False (numero compuesto) 
+        Método is_prime que recibe un numero entero 
+        y devuelve True o False si es numero primo o no 
         """
-        # your primes code here
-        veces=True
+        veces = True
         for i in range(2, num_int):
             if num_int % i == 0:
-                veces=False
+                veces = False
                 break
-        
         return veces
