@@ -58,3 +58,17 @@ INSERT INTO relacion_employee_hobby VALUES (3, 1);
 INSERT INTO relacion_employee_hobby VALUES (3, 3);
 INSERT INTO relacion_employee_hobby VALUES (4, 1);
 INSERT INTO relacion_employee_hobby VALUES (4, 2);
+
+CREATE TABLE jefe (
+  id int not null,
+  name varchar (30) not null,
+  CONSTRAINT jefe_pk PRIMARY KEY (id)
+);
+
+alter table employee
+ADD column jefe_id int,
+ADD CONSTRAINT employee_jefe_fk FOREIGN KEY (jefe_id) REFERENCES jefe(id);
+
+INSERT INTO jefe VALUES (1, 'Jefe1');
+INSERT INTO jefe VALUES (2, 'Jefe2');
+UPDATE employee SET jefe_id = 1;
