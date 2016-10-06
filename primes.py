@@ -14,7 +14,7 @@ class PrimeClass(object):
         # your primes code here
         veces=0
         for i in range(2, num_int):
-            if num_int % i == 0
+            if num_int % i == 0:
                 veces=veces+1
         if veces > 1:    
             return False
