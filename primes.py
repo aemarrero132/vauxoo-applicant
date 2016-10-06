@@ -9,7 +9,7 @@ class PrimeClass(object):
     '''
     def is_prime(self, num_int):
         """
-        Método is_prime que recibe un numero entero 
+        Metodo is_prime que recibe un numero entero 
         y devuelve True o False si es numero primo o no 
         """
         veces = True
