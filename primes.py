@@ -13,7 +13,7 @@ class PrimeClass(object):
         y devuelve True o False si es numero primo o no
         """
         veces = True
-        for i in range(2, num_int):
+        for i in range(2,num_int):
             if num_int % i == 0:
                 veces = False
                 break
